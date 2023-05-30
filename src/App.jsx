@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    
       <div className="nav">
         <p className="nav__one">Etsy</p>
         <p className="nav__two">Sell on etsy</p>
@@ -39,12 +40,12 @@ function App() {
       </div>
  
       <h3 className="middle-option">Recently Viewed & more</h3>
-       
+      
        <div className="section2">
         <div className="section2__term">
-          <div className="section2__term__one">
+          <div className="section2__term__four">
             <img src="./image/but.png" alt="" />
-            <div className="section2__term__one__class">
+            <div className="section2__term__four__class">
              <p>Anniversary Gift</p>
             </div>
           </div>
@@ -94,6 +95,7 @@ function App() {
        </div>
        <div className="me"></div>
        <div className="us"></div>
+      
     </>
   )
 }
