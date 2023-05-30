@@ -48,14 +48,20 @@
     }
     &__images{
         display: flex;
-        gap: 3.006rem;
-        @media (max-width: 768px){
-            gap: 1.9rem;
-        }
-        @media (max-width: 425px){
-            gap: 0.75rem;
-        }
         &__one{
+            margin-right: 3.006rem;
+            @media (max-width: 1024px){
+                width: 1.125rem;
+                height: 1.375rem;
+            }
+            @media (max-width: 768px){
+                margin-right: 1.9rem;
+            }
+            @media (max-width: 425px){
+                margin-right: 0.75rem;
+            }
+        }
+        &__two{
             @media (max-width: 1024px){
                 width: 1.125rem;
                 height: 1.375rem;
@@ -262,13 +268,9 @@
     }
     &__term{
         display: flex;
-        gap: 5.688rem;
         margin-bottom: 6rem;
         @media (max-width: 1024px){
             margin-bottom: 2.688rem;
-        }
-        @media (max-width: 768px){
-            gap: 1rem;
         }
         &__one{
             text-align: center;
@@ -301,6 +303,10 @@
         }
         &__four{
             text-align: center;
+            margin-right: 5.688rem;
+            @media (max-width: 768px){
+                margin-right: 1rem;
+            }
             img{
                 max-width: 100%;
             }
@@ -336,10 +342,6 @@
     }
     &__term1{
         display: flex;
-        gap: 5.813rem;
-        @media (max-width: 768px){
-            gap: 1rem;
-        }
         &__one{
             text-align: center;
             img{
@@ -371,6 +373,39 @@
         }
         &__two{
             text-align: center;
+            img{
+                max-width: 100%;
+            }
+            &__class{
+                margin-top: -0.4rem;
+                border: 1px solid rgba(0, 0, 0, 0.75);
+                p{
+                    margin: auto;
+                    padding-top: 0.3rem;
+                    padding-bottom: 0.3rem;
+                    font-weight: 400;
+                    font-size: 3rem;
+                    line-height: 4.125rem;
+                    @media (max-width: 1260px){
+                        font-size: 2rem;
+                    }
+                    @media (max-width: 1000px){
+                        font-size: 1.5rem;
+                        line-height: 1.25rem;
+                    }
+                    @media (max-width: 660px){
+                        font-size: 0.538rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        &__three{
+            text-align: center;
+            margin-right: 5.813rem;
+            @media (max-width: 768px){
+                margin-right: 1rem;
+            }
             img{
                 max-width: 100%;
             }

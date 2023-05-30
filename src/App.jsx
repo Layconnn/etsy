@@ -16,7 +16,7 @@ function App() {
         <Input />
         <span className="second__images">
             <img src="./image/prof.png" alt="" className="second__images__one"/>
-            <img src="./image/bas.png" alt="" className="second__images__one" />
+            <img src="./image/bas.png" alt="" className="second__images__two" />
         </span>
       </div>
           
@@ -57,7 +57,7 @@ function App() {
           </div>
         </div>
         <div className="section2__term1">
-          <div className="section2__term1__one">
+          <div className="section2__term1__three">
             <img src="./image/bob.png" alt="" />
             <div className="section2__term1__one__class">
               <p>Gift for her</p>
