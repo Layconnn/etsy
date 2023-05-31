@@ -264,7 +264,6 @@
 .middle-option{
     font-weight: 500;
     font-size: 4rem;
-    line-height: 4.813rem;
     text-align: center;
     margin-top: 10.625rem;
     @media (max-width: 1024px){
@@ -548,6 +547,7 @@
         padding-bottom: 1rem;
         margin-left: 1.563rem;
         margin-right: 1.563rem;
+        margin-top: 6.875rem;
     }
     &__text{
         font-weight: 600;
