@@ -639,11 +639,12 @@
 }
 .last{
     margin-top: 5rem;
-    padding-bottom: 3.125rem;
+    padding-bottom: 11.688rem;
     padding-top: 10.375rem;
     background-size: cover;
     background-repeat: no-repeat;
     @media (max-width: 768px){
+        padding-bottom: 3.125rem;
         padding-top: 0;
     }
     @media (max-width: 320px){
@@ -653,7 +654,7 @@
         font-weight: 400;
         text-align: center;
         font-size: 8rem;
-        padding-top: 8.375rem;
+        padding-top: 20.375rem;
         margin-bottom: 5.625rem;
         @media (max-width: 1200px){
             font-size: 4rem;
